@@ -151,7 +151,7 @@ header {
   margin-top: 40px;
   margin-bottom: 30px;
   display: grid;
-  height: 550px;
+  height: minmax(auto,550px);
   grid-template-rows: 1fr 10px;
   grid-template-columns: 1fr 40px 1fr 40px 1fr;
   align-items: center;
